@@ -1,0 +1,26 @@
+{
+    "items": [],
+    "name": "Messages",
+    "schema": [
+        {
+            "ColumnName": "item_id",
+            "ColumnType": "uuid",
+            "PK": true
+        },
+        {
+            "ColumnName": "message",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "time_stamp",
+            "ColumnType": "timestamp",
+            "PK": false
+        },
+        {
+            "ColumnName": "topic",
+            "ColumnType": "string",
+            "PK": false
+        }
+    ]
+}

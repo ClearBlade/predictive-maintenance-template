@@ -1,0 +1,65 @@
+{
+    "Description": "Default role that is applied to all unauthenticated users",
+    "Name": "Anonymous",
+    "Permissions": {
+        "AllCollections": {
+            "Level": 0
+        },
+        "AllServices": {
+            "Level": 0
+        },
+        "CodeServices": [],
+        "Collections": [
+            {
+                "Columns": [],
+                "Items": [],
+                "Level": 1,
+                "Name": "Alerts"
+            },
+            {
+                "Columns": [],
+                "Items": [],
+                "Level": 1,
+                "Name": "Messages"
+            }
+        ],
+        "Deployments": {
+            "Level": 0
+        },
+        "DevicesList": {
+            "Level": 0
+        },
+        "EdgesList": {
+            "Level": 0
+        },
+        "ManageUsers": {
+            "Level": 0
+        },
+        "MsgHistory": {
+            "Level": 0
+        },
+        "Portals": [
+            {
+                "Level": 0,
+                "Name": "PredictiveMaintenance"
+            }
+        ],
+        "Push": {
+            "Level": 0
+        },
+        "Roles": {
+            "Level": 0
+        },
+        "ServiceCaches": [],
+        "Timers": {
+            "Level": 0
+        },
+        "Topics": [],
+        "Triggers": {
+            "Level": 0
+        },
+        "UsersList": {
+            "Level": 0
+        }
+    }
+}

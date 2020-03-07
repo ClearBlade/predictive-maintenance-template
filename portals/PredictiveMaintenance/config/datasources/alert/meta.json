@@ -1,0 +1,12 @@
+{
+    "id": "9cbf6c94-86ec-4f8e-ab3e-3d221320431a",
+    "name": "alert",
+    "settings": {
+        "CALL_ON_LOAD": true,
+        "DATASOURCE_PARSER": "/**\n* The 'parser' variable is the entry point for your parser. Write logic inside of the provided function and return a value\n* Constants and utility functions can be created outside of the parser\n* The provided ctx parameter is an object that contains data and model information on this item\n* @param {context} ctx \n* @returns {rtn} */\nparser = (ctx) =\u003e {\n  return ctx.data\n}",
+        "SUPPRESS_DATASOURCE_ERRORS": false,
+        "TOPIC_NAME": "alert",
+        "USE_PARSER": false
+    },
+    "type": "CB_MESSAGE_TOPIC"
+}

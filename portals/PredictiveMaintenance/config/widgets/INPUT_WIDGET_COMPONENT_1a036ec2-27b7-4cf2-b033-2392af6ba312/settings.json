@@ -1,0 +1,30 @@
+{
+    "dataType": "string",
+    "inputVal": {
+        "dataType": "DYNAMIC_DATA_TYPE",
+        "force_data": [
+            "CALCULATED_DATA_TYPE",
+            "DYNAMIC_DATA_TYPE"
+        ],
+        "id": "540a50ce-4118-4813-9c2b-ab907ddb5760",
+        "incoming_parser": {
+            "isDebugOn": false,
+            "value": "./parsers/inputVal/incoming_parser/index.js"
+        }
+    },
+    "label": "",
+    "placeholder": "Publish Time interval",
+    "smallText": "Publishes a message after every given time interval (time in seconds)",
+    "target": {
+        "dataType": "DYNAMIC_DATA_TYPE",
+        "force_data": [
+            "CALCULATED_DATA_TYPE",
+            "DYNAMIC_DATA_TYPE"
+        ],
+        "id": "540a50ce-4118-4813-9c2b-ab907ddb5760",
+        "outgoing_parser": {
+            "isDebugOn": false,
+            "value": "./parsers/target/outgoing_parser/index.js"
+        }
+    }
+}

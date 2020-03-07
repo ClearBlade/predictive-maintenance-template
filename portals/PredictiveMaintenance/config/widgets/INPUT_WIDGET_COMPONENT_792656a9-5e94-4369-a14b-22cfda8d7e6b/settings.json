@@ -1,0 +1,30 @@
+{
+    "dataType": "float",
+    "defaultValue": "",
+    "inputType": "number",
+    "inputVal": {
+        "dataType": "DYNAMIC_DATA_TYPE",
+        "force_data": [
+            "CALCULATED_DATA_TYPE",
+            "DYNAMIC_DATA_TYPE"
+        ],
+        "id": "8b6b12b2-2b3c-430e-acec-0f7cfaef1a25",
+        "incoming_parser": {
+            "isDebugOn": false,
+            "value": "./parsers/inputVal/incoming_parser/index.js"
+        }
+    },
+    "isReadOnly": true,
+    "label": "Temperature Sensor Reading",
+    "target": {
+        "dataType": "CALCULATED_DATA_TYPE",
+        "force_data": [
+            "CALCULATED_DATA_TYPE",
+            "DYNAMIC_DATA_TYPE"
+        ],
+        "outgoing_parser": {
+            "isDebugOn": false,
+            "value": "./parsers/target/outgoing_parser/index.js"
+        }
+    }
+}

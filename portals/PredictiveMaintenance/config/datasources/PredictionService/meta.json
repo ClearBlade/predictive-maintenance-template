@@ -1,0 +1,14 @@
+{
+    "id": "cb11170f-6978-466c-95b1-3245b0f4ee19",
+    "name": "PredictionService",
+    "settings": {
+        "CALL_ON_LOAD": false,
+        "DATASOURCE_PARSER": "/**\n* The 'parser' variable is the entry point for your parser. Write logic inside of the provided function and return a value\n* Constants and utility functions can be created outside of the parser\n* The provided ctx parameter is an object that contains data and model information on this item\n* @param {context} ctx \n* @returns {rtn} */\nparser = (ctx) =\u003e {\n  return ctx.data\n}",
+        "SUPPRESS_DATASOURCE_ERRORS": false,
+        "USE_PARSER": false,
+        "code_name": "PredictionService",
+        "payload": "{}",
+        "refresh_interval": 0
+    },
+    "type": "CB_CODE_SERVICE"
+}

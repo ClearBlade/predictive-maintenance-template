@@ -1,0 +1,26 @@
+{
+    "items": [],
+    "name": "Alerts",
+    "schema": [
+        {
+            "ColumnName": "item_id",
+            "ColumnType": "uuid",
+            "PK": true
+        },
+        {
+            "ColumnName": "alert",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "message",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "time_stamp",
+            "ColumnType": "timestamp",
+            "PK": false
+        }
+    ]
+}

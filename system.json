@@ -1,0 +1,9 @@
+{
+    "auth": true,
+    "description": "",
+    "messaging_url": "platform.clearblade.com:1883",
+    "name": "Predictive-Maintenance-Template",
+    "platform_url": "https://platform.clearblade.com",
+    "system_key": "d8edf8e40be8b0a8e9b391a88fc601",
+    "system_secret": "D8EDF8E40BAE94CB9AEFCF94B83D"
+}

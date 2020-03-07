@@ -1,0 +1,20 @@
+{
+    "HAS_UNIQUE_STYLE": false,
+    "backgroundColor": "#212121",
+    "backgroundHoverColor": "#000000",
+    "borderColor": "#cccccc",
+    "eventTarget": {
+        "dataType": "DYNAMIC_DATA_TYPE",
+        "force_data": [
+            "CALCULATED_DATA_TYPE",
+            "DYNAMIC_DATA_TYPE"
+        ],
+        "id": "cb11170f-6978-466c-95b1-3245b0f4ee19",
+        "outgoing_parser": {
+            "isDebugOn": false,
+            "value": "./parsers/eventTarget/outgoing_parser/index.js"
+        }
+    },
+    "fontColor": "#ffffff",
+    "label": "Publish Messages"
+}

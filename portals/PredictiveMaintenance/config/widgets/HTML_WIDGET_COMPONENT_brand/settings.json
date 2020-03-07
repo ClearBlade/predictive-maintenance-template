@@ -1,0 +1,18 @@
+{
+    "html": {
+        "dataType": "STATIC_DATA_TYPE",
+        "force_data": [
+            "STATIC_DATA_TYPE",
+            "DYNAMIC_DATA_TYPE"
+        ],
+        "incoming_parser": {
+            "isDebugOn": false,
+            "value": "return this.datasource;"
+        },
+        "value": {
+            "CSS": "./parsers/html/incoming_parser/index.css",
+            "HTML": "./parsers/html/incoming_parser/index.html",
+            "JavaScript": "./parsers/html/incoming_parser/index.js"
+        }
+    }
+}

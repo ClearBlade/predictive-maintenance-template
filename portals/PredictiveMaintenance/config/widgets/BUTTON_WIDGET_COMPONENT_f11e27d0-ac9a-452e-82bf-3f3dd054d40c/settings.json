@@ -1,0 +1,19 @@
+{
+    "HAS_UNIQUE_STYLE": false,
+    "backgroundColor": "#212121",
+    "backgroundHoverColor": "#000000",
+    "borderColor": "#cccccc",
+    "eventTarget": {
+        "dataType": "CALCULATED_DATA_TYPE",
+        "force_data": [
+            "CALCULATED_DATA_TYPE",
+            "DYNAMIC_DATA_TYPE"
+        ],
+        "outgoing_parser": {
+            "isDebugOn": false
+        },
+        "value": "./parsers/eventTarget/outgoing_parser/index.js"
+    },
+    "fontColor": "#ffffff",
+    "label": "Subscribe"
+}

@@ -1,0 +1,10 @@
+{
+    "id": "4f812941-e96f-445a-95a0-797f12ae73c3",
+    "name": "stopFlag",
+    "settings": {
+        "DATASOURCE_PARSER": "/**\n* The 'parser' variable is the entry point for your parser. Write logic inside of the provided function and return a value\n* Constants and utility functions can be created outside of the parser\n* The provided ctx parameter is an object that contains data and model information on this item\n* @param {context} ctx \n* @returns {rtn} */\nparser = (ctx) =\u003e {\n  return ctx.data\n}",
+        "USE_PARSER": false,
+        "defaultValue": "{\n  \"val\": 1\n}"
+    },
+    "type": "LOCAL_DATASOURCE_PLUGIN"
+}

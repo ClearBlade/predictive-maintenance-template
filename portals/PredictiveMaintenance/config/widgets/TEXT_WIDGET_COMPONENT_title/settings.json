@@ -1,0 +1,10 @@
+{
+    "HAS_UNIQUE_STYLE": true,
+    "fontColor": "#fff",
+    "fontFamily": "Trebuchet MS",
+    "fontSize": 18,
+    "textContent": {
+        "dataType": "CALCULATED_DATA_TYPE",
+        "value": "./parsers/textContent/incoming_parser/index.js"
+    }
+}

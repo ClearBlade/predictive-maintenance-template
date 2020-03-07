@@ -1,0 +1,31 @@
+{
+    "dataType": "string",
+    "inputType": "text",
+    "inputVal": {
+        "dataType": "DYNAMIC_DATA_TYPE",
+        "force_data": [
+            "CALCULATED_DATA_TYPE",
+            "DYNAMIC_DATA_TYPE"
+        ],
+        "id": "b030fa64-3d8d-4dc6-9a2b-81cb3f37c3b3",
+        "incoming_parser": {
+            "isDebugOn": false,
+            "value": "./parsers/inputVal/incoming_parser/index.js"
+        }
+    },
+    "label": "",
+    "modalPreviewForJSON": false,
+    "placeholder": "Topic to be subscribed",
+    "target": {
+        "dataType": "DYNAMIC_DATA_TYPE",
+        "force_data": [
+            "CALCULATED_DATA_TYPE",
+            "DYNAMIC_DATA_TYPE"
+        ],
+        "id": "b030fa64-3d8d-4dc6-9a2b-81cb3f37c3b3",
+        "outgoing_parser": {
+            "isDebugOn": false,
+            "value": "./parsers/target/outgoing_parser/index.js"
+        }
+    }
+}

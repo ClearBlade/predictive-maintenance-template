@@ -1,0 +1,102 @@
+{
+    "items": [
+        {
+            "accelerometer": 0.068300001,
+            "item_id": "05ff09c1-073a-4d08-a32c-81ec7a3bb39b",
+            "maintenance": "not required",
+            "powersensor": 1350,
+            "temperaturesensor": 73.400002
+        },
+        {
+            "accelerometer": 0.068499997,
+            "item_id": "353e823e-5f2b-4a65-b073-62ec7c428a53",
+            "maintenance": "not required",
+            "powersensor": 1350,
+            "temperaturesensor": 73.400002
+        },
+        {
+            "accelerometer": 0.52719998,
+            "item_id": "3afc8927-1ebe-4a71-81a7-3d4e23869b27",
+            "maintenance": "not required",
+            "powersensor": 1532,
+            "temperaturesensor": 83.099998
+        },
+        {
+            "accelerometer": 1.721,
+            "item_id": "45e7497c-bee8-491c-906a-fb7c84a2a083",
+            "maintenance": "required",
+            "powersensor": 1710,
+            "temperaturesensor": 77.300003
+        },
+        {
+            "accelerometer": 0.068800002,
+            "item_id": "6074e880-6f3b-4053-b137-1a1e86e87e31",
+            "maintenance": "not required",
+            "powersensor": 1200,
+            "temperaturesensor": 76.599998
+        },
+        {
+            "accelerometer": 0.43329999,
+            "item_id": "65b3b7f9-8018-42b3-b7f5-c5b272eedc96",
+            "maintenance": "required",
+            "powersensor": 1820,
+            "temperaturesensor": 82.099998
+        },
+        {
+            "accelerometer": 0.069499999,
+            "item_id": "7466a26c-6010-4eb2-b10b-47ef447a616f",
+            "maintenance": "not required",
+            "powersensor": 1421,
+            "temperaturesensor": 75.400002
+        },
+        {
+            "accelerometer": 1.9,
+            "item_id": "9081ca9d-b832-49a0-9db4-81dd52886d3f",
+            "maintenance": "required",
+            "powersensor": 1800,
+            "temperaturesensor": 95.099998
+        },
+        {
+            "accelerometer": 0.42719999,
+            "item_id": "985b390f-5c70-40b5-84cd-8dabc94d477f",
+            "maintenance": "not required",
+            "powersensor": 1520,
+            "temperaturesensor": 82.400002
+        },
+        {
+            "accelerometer": 1.715,
+            "item_id": "f29cdae3-5788-4a8b-ab16-3ac50e6cc449",
+            "maintenance": "required",
+            "powersensor": 1740,
+            "temperaturesensor": 95
+        }
+    ],
+    "name": "TrainingCollection",
+    "schema": [
+        {
+            "ColumnName": "item_id",
+            "ColumnType": "uuid",
+            "PK": true
+        },
+        {
+            "ColumnName": "powersensor",
+            "ColumnType": "float",
+            "PK": false
+        },
+        {
+            "ColumnName": "temperaturesensor",
+            "ColumnType": "float",
+            "PK": false
+        },
+        {
+            "ColumnName": "accelerometer",
+            "ColumnType": "float",
+            "PK": false
+        },
+        {
+            "ColumnName": "maintenance",
+            "ColumnType": "string",
+            "PK": false
+        }
+    ]
+}

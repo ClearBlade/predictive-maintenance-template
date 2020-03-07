@@ -1,0 +1,135 @@
+{
+    "addItemParser": {
+        "dataType": "CALCULATED_DATA_TYPE",
+        "force_data": [
+            "CALCULATED_DATA_TYPE",
+            "DYNAMIC_DATA_TYPE"
+        ],
+        "outgoing_parser": {
+            "isDebugOn": false,
+            "value": "./parsers/addItemParser/outgoing_parser/index.js"
+        }
+    },
+    "allowImport": false,
+    "allowSearch": false,
+    "canFullScreen": true,
+    "defaultRowSorting": "",
+    "defaultSortAsc": false,
+    "deleteItemParser": {
+        "dataType": "CALCULATED_DATA_TYPE",
+        "force_data": [
+            "CALCULATED_DATA_TYPE",
+            "DYNAMIC_DATA_TYPE"
+        ],
+        "outgoing_parser": {
+            "isDebugOn": false,
+            "value": "./parsers/deleteItemParser/outgoing_parser/index.js"
+        }
+    },
+    "editCells": {
+        "alert": {
+            "dataType": "string",
+            "display": true,
+            "inputType": "text",
+            "isKeyColumn": false,
+            "isReadOnly": false,
+            "key": "798ab3bd-dc08-42fa-b69e-9b094dee38f8",
+            "label": "Alert",
+            "modalPreviewAtLength": 50,
+            "modalPreviewForJSON": true,
+            "name": "alert",
+            "orderIdx": 2
+        },
+        "message": {
+            "dataType": "string",
+            "display": true,
+            "inputType": "text",
+            "isKeyColumn": false,
+            "isReadOnly": false,
+            "key": "dc8873cb-6f78-46d4-b7ea-966fd023c0cd",
+            "label": "Sensor Readings",
+            "modalPreviewAtLength": 50,
+            "modalPreviewForJSON": true,
+            "name": "message",
+            "orderIdx": 3
+        },
+        "time_stamp": {
+            "dataType": "timestamp",
+            "display": true,
+            "inputType": "DATE_PICKER",
+            "isKeyColumn": false,
+            "isReadOnly": false,
+            "key": "1435e675-e8b6-4c1c-8233-da267b035abb",
+            "label": "Time  stamp",
+            "name": "time_stamp",
+            "orderIdx": 4
+        }
+    },
+    "enableSorting": false,
+    "evenStripeColor": "#484848",
+    "exportDataParser": {
+        "dataType": "CALCULATED_DATA_TYPE",
+        "force_data": [
+            "CALCULATED_DATA_TYPE"
+        ],
+        "outgoing_parser": {
+            "isDebugOn": false,
+            "value": "/**\n* The 'parser' variable is the entry point for your parser. Write logic inside of the provided function and return a value\n* Constants and utility functions can be created outside of the parser\n* The provided ctx parameter is an object that contains data and model information on this item\n* @param {context} ctx \n* @returns {rtn} */\nparser = (ctx) =\u003e {\n  return ctx.widget;\n}"
+        },
+        "value": "./parsers/exportDataParser/outgoing_parser/index.js"
+    },
+    "fetchGridData": {
+        "dataType": "CALCULATED_DATA_TYPE",
+        "force_data": [
+            "CALCULATED_DATA_TYPE",
+            "DYNAMIC_DATA_TYPE"
+        ],
+        "outgoing_parser": {
+            "isDebugOn": false,
+            "value": "./parsers/fetchGridData/outgoing_parser/index.js"
+        }
+    },
+    "gridData": {
+        "dataType": "DYNAMIC_DATA_TYPE",
+        "force_data": [
+            "CALCULATED_DATA_TYPE",
+            "DYNAMIC_DATA_TYPE"
+        ],
+        "id": "6200474a-bae1-4c2d-9e67-4ab9498f4cf1",
+        "incoming_parser": {
+            "isDebugOn": false,
+            "value": "./parsers/gridData/incoming_parser/index.js"
+        }
+    },
+    "hidePaginationWhenNotNeeded": true,
+    "highlightColor": "#6e8592",
+    "highlightItemParser": {
+        "dataType": "CALCULATED_DATA_TYPE",
+        "force_data": [
+            "CALCULATED_DATA_TYPE",
+            "DYNAMIC_DATA_TYPE"
+        ],
+        "outgoing_parser": {
+            "isDebugOn": false,
+            "value": "./parsers/highlightItemParser/outgoing_parser/index.js"
+        }
+    },
+    "highlightTextColor": "#000000",
+    "htmlId": "crudID",
+    "oddStripeColor": "#212121",
+    "pageSize": 25,
+    "searchPlaceholderText": "search",
+    "showSearchBar": false,
+    "textColor": "#ffffff",
+    "updateItemParser": {
+        "dataType": "CALCULATED_DATA_TYPE",
+        "force_data": [
+            "CALCULATED_DATA_TYPE",
+            "DYNAMIC_DATA_TYPE"
+        ],
+        "outgoing_parser": {
+            "isDebugOn": false,
+            "value": "./parsers/updateItemParser/outgoing_parser/index.js"
+        }
+    }
+}

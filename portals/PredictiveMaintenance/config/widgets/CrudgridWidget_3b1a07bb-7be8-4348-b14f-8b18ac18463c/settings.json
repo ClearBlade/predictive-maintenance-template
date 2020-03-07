@@ -1,0 +1,181 @@
+{
+    "addItemParser": {
+        "dataType": "CALCULATED_DATA_TYPE",
+        "force_data": [
+            "CALCULATED_DATA_TYPE",
+            "DYNAMIC_DATA_TYPE"
+        ],
+        "outgoing_parser": {
+            "isDebugOn": false,
+            "value": "./parsers/addItemParser/outgoing_parser/index.js"
+        }
+    },
+    "allowImport": false,
+    "allowSearch": false,
+    "canFullScreen": true,
+    "defaultRowSorting": "time_stamp",
+    "defaultSortAsc": false,
+    "deleteItemParser": {
+        "dataType": "CALCULATED_DATA_TYPE",
+        "force_data": [
+            "CALCULATED_DATA_TYPE",
+            "DYNAMIC_DATA_TYPE"
+        ],
+        "outgoing_parser": {
+            "isDebugOn": false,
+            "value": "./parsers/deleteItemParser/outgoing_parser/index.js"
+        }
+    },
+    "editCells": {
+        "message": {
+            "dataType": "string",
+            "display": true,
+            "inputType": "text",
+            "isKeyColumn": false,
+            "isReadOnly": false,
+            "key": "d05ae4d1-145a-4d2b-b434-0572e0514d02",
+            "label": "Message",
+            "modalPreviewAtLength": 50,
+            "modalPreviewForJSON": true,
+            "name": "message",
+            "orderIdx": 2
+        },
+        "time_stamp": {
+            "dataType": "timestamp",
+            "display": true,
+            "inputType": "DATE_PICKER",
+            "isKeyColumn": false,
+            "isReadOnly": false,
+            "key": "da0a2242-47b6-45fb-a848-be5c7f4e1022",
+            "label": "Time  stamp",
+            "name": "time_stamp",
+            "orderIdx": 3
+        },
+        "topic": {
+            "dataType": "string",
+            "display": true,
+            "inputType": "text",
+            "key": "3033a0a1-ade7-4056-9caa-c4004a285b30",
+            "label": "Subscribed Topic",
+            "layout": {
+                "lg": {
+                    "h": 5,
+                    "i": "topic",
+                    "minH": 3,
+                    "w": 36,
+                    "x": 0,
+                    "y": 12
+                },
+                "md": {
+                    "h": 5,
+                    "i": "topic",
+                    "minH": 3,
+                    "w": 36,
+                    "x": 0,
+                    "y": 12
+                },
+                "sm": {
+                    "h": 5,
+                    "i": "topic",
+                    "minH": 3,
+                    "w": 36,
+                    "x": 0,
+                    "y": 12
+                },
+                "xl": {
+                    "h": 5,
+                    "i": "topic",
+                    "minH": 3,
+                    "w": 36,
+                    "x": 0,
+                    "y": 12
+                },
+                "xs": {
+                    "h": 5,
+                    "i": "topic",
+                    "minH": 3,
+                    "w": 36,
+                    "x": 0,
+                    "y": 12
+                },
+                "xxs": {
+                    "h": 5,
+                    "i": "topic",
+                    "minH": 3,
+                    "w": 36,
+                    "x": 0,
+                    "y": 12
+                }
+            },
+            "name": "topic",
+            "orderIdx": 4
+        }
+    },
+    "enableSorting": true,
+    "evenStripeColor": "#484848",
+    "exportDataParser": {
+        "dataType": "CALCULATED_DATA_TYPE",
+        "force_data": [
+            "CALCULATED_DATA_TYPE"
+        ],
+        "outgoing_parser": {
+            "isDebugOn": false,
+            "value": "/**\n* The 'parser' variable is the entry point for your parser. Write logic inside of the provided function and return a value\n* Constants and utility functions can be created outside of the parser\n* The provided ctx parameter is an object that contains data and model information on this item\n* @param {context} ctx \n* @returns {rtn} */\nparser = (ctx) =\u003e {\n  return ctx.widget;\n}"
+        },
+        "value": "./parsers/exportDataParser/outgoing_parser/index.js"
+    },
+    "fetchGridData": {
+        "dataType": "DYNAMIC_DATA_TYPE",
+        "force_data": [
+            "CALCULATED_DATA_TYPE",
+            "DYNAMIC_DATA_TYPE"
+        ],
+        "id": "6e8312fd-8bde-45b0-8951-2c7ae785d70b",
+        "outgoing_parser": {
+            "isDebugOn": false,
+            "value": "./parsers/fetchGridData/outgoing_parser/index.js"
+        }
+    },
+    "gridData": {
+        "dataType": "DYNAMIC_DATA_TYPE",
+        "force_data": [
+            "CALCULATED_DATA_TYPE",
+            "DYNAMIC_DATA_TYPE"
+        ],
+        "id": "6e8312fd-8bde-45b0-8951-2c7ae785d70b",
+        "incoming_parser": {
+            "isDebugOn": false,
+            "value": "./parsers/gridData/incoming_parser/index.js"
+        }
+    },
+    "hidePaginationWhenNotNeeded": true,
+    "highlightColor": "#6e8592",
+    "highlightItemParser": {
+        "dataType": "CALCULATED_DATA_TYPE",
+        "force_data": [
+            "CALCULATED_DATA_TYPE",
+            "DYNAMIC_DATA_TYPE"
+        ],
+        "outgoing_parser": {
+            "isDebugOn": false,
+            "value": "./parsers/highlightItemParser/outgoing_parser/index.js"
+        }
+    },
+    "highlightTextColor": "#000000",
+    "oddStripeColor": "#212121",
+    "pageSize": 10,
+    "searchPlaceholderText": "search",
+    "showSearchBar": false,
+    "textColor": "#ffffff",
+    "updateItemParser": {
+        "dataType": "CALCULATED_DATA_TYPE",
+        "force_data": [
+            "CALCULATED_DATA_TYPE",
+            "DYNAMIC_DATA_TYPE"
+        ],
+        "outgoing_parser": {
+            "isDebugOn": false,
+            "value": "./parsers/updateItemParser/outgoing_parser/index.js"
+        }
+    }
+}
