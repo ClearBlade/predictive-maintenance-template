@@ -5,10 +5,11 @@
 * @param {context} ctx 
 * @returns {rtn} */
 parser = (ctx) => {
-  var data = datasources.timeInterval.latestData();
-  if(data["time"] == 0){
-    return 0;
-  }
+  // var data = datasources.timeInterval.latestData();
+  // if(data["time"] == 0){
+  //   return 0;
+  // }
 
-  return ctx.datasource.time;
+  return datasources.timeInterval["time"];
+  // return ctx.datasource.time;
 }

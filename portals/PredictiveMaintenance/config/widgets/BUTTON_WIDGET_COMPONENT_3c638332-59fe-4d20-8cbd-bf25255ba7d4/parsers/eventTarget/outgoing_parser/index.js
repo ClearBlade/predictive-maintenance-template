@@ -39,7 +39,7 @@ function execute(){
             "payload" : messages[messages.length - 1]
           })
 
-          console.log(datasources.timeInterval.latestData());
+          // console.log(datasources.timeInterval.latestData());
           console.log("Message Published");
         }
       } else {
@@ -47,7 +47,7 @@ function execute(){
         clearInterval(id);
       }
 
-    }, datasources.timeInterval.latestData()["time"] * 1000
+    }, datasources.timeInterval.latestData() * 1000
   )
 }
 
@@ -71,12 +71,13 @@ parser = (ctx) => {
   console.log(datasources.timeInterval.latestData());
 
   var interval = datasources.timeInterval.latestData();
-  if (interval["time"] == 0 || interval["time"] == undefined){
+  console.log(interval);
+  if (interval == 0 || interval == undefined){
     alert("Setting default interval to 5 seconds");
     datasources.timeInterval.sendData({"time" : 5});
   }
 
-  alert("Publishing a message after every " + datasources.timeInterval.latestData()["time"] + " seconds");
+  alert("Publishing a message after every " + datasources.timeInterval.latestData() + " seconds");
 
   execute();
 
