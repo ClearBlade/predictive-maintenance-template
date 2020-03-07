@@ -47,13 +47,17 @@ https://github.com/ClearBlade/predictive-maintenance-template
 ### Code Services
 
 ``` TrainingService ``` : A code service to design and train a machine learning model using BrainJS.
+
 ``` PredictionService``` : A code service to predict if a maintenance is required using the trained model.
 
 ### Collections
 
 ``` Alerts ``` : A collection that stores all the alerts generated.
+
 ``` Messages``` : A collection that stores all the messages generated and published.
+
 ``` NeuralNetModels``` : A collection that stores the trained neural network models.
+
 ``` TrainingCollection``` : A collection that stores the training data.
 
 ### Portals
