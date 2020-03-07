@@ -34,15 +34,15 @@ https://github.com/ClearBlade/predictive-maintenance-template
 - Once logged in successfully, you can now access the portal. The portal is essentially divided into three sections:
   - The first section displays the sensor readings of three different sensors viz. Accelerometer, pressure sensor and temperature sensor. The values for there sensors are randomly generated after every 5 seconds for a demonstrative purpose.
   - The second section is further divided into two sub-sections. The first sub-section, which is on the left hand side, allows you to subscribe to a topic and provide a publish interval. The publish interval specially the time interval after which you want to publish a message. For example, if you provide a publish time interval as 3, the system will publish a message after every 3 seconds on the subscribed topic. You can press the **Stop Publishing** button to stop the publishing. The second sub-section in the right displays the live device data feed. It shows the messages published, their timestamp and the topic to which these messages were published.
-  - The third section displays latest alerts i.e if a maintenance is required or not. The messages published are predicted by the BrainJS trained model and the corresponding results are sent in the form of alerts. The alerts in **Green** colour indicate that *Maintenance is not required*, whereas alerts in **Red** colour indicate that *Maintenance is required*.
+  - The third section displays latest alerts i.e if a maintenance is required or not.
+- The messages published are sent to the PredictionService and BrainJS trained model predicts whether a maintenance is required for these messages and the corresponding results are sent in the form of alerts. 
+- The alerts in **Green** colour indicate that *Maintenance is not required*, whereas alerts in **Red** colour indicate that *Maintenance is required*.
 
 ## Assets
 
 ### Libraries 
 
-| Library         | Description                            | Official Documentation              |
-| --------------- | -------------------------------------- | ----------------------------------- |
-| ``` BrainJS ``` | A Library to Implement Neural Networks | https://github.com/ClearBlade/brain-js |
+``` BrainJS ``` : A Library to Implement Neural Networks. Click [here](https://github.com/ClearBlade/brain-js) for more info.
 
 ### Code Services
 
