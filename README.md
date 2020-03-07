@@ -1,4 +1,4 @@
-# predictive-maintenance-template
+# Predictive Maintenance Template
 
 ## Contents
 
