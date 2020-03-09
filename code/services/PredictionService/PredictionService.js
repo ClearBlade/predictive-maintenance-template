@@ -21,6 +21,14 @@ function PredictionService(req,resp){
         } else {
             var temp = data['DATA'][data['TOTAL']-1];
             var parsed = JSON.parse(temp['architecture'])
+
+            var normalize_data = JSON.parse(temp['normalize_data'])
+            var min_pow = normalize_data['min_pow']
+            var max_pow = normalize_data['max_pow']
+            var min_temp = normalize_data['min_temp']
+            var max_temp = normalize_data['max_temp']
+            var min_acc = normalize_data['min_acc']
+            var max_acc = normalize_data['max_acc']
             
             var msg = ClearBlade.Messaging();
             if(req.params.topic == null){
@@ -46,7 +54,11 @@ function PredictionService(req,resp){
                     var model = net.fromJSON(parsed);
                     
                     test = JSON.parse(payload);
-                    var prediction = model.run({ "accelerometer": test["acc"], "powersensor": test["pow"], "temperaturesensor": test["temp"] });
+                    var prediction = model.run({ 
+                        "accelerometer": (test["acc"] - min_acc) / (max_acc - min_acc), 
+                        "powersensor": (test["pow"] - min_pow) / (max_pow - min_pow), 
+                        "temperaturesensor": (test["temp"] - min_temp) / (max_temp - min_temp) });
+
                     log(prediction);
 
                     msg.subscribe("alert", function(err, data) {
