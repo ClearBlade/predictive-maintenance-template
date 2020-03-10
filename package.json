@@ -1,0 +1,61 @@
+{
+    "author": "Rajas Deshpande <rdeshpande@clearblade.com>",
+    "description": "Predictive Maintenance Template",
+    "asset_types": [
+        "System",
+        "Code Libraries",
+        "Code Services",
+        "Portals",
+        "Collections",
+        "Triggers",
+        "Adapters",
+        "Roles",
+        "Timers",
+        "Plugins",
+        "Users",
+        "Edges",
+        "Devices"
+    ],
+    "version": "1.0.0",
+    "license": "MIT",
+    "keywords": [
+        "Neural Networks",
+        "Classification",
+        "Machine Learning",
+        "System Template",
+        "Predictive Maintenance"
+    ],
+    "prog_lang": [
+        "javascript"
+    ],
+    "cloud": [],
+    "things": [],
+    "domains": [
+        "Artificial Intelligence",
+        "Predictive Maintenance",
+        "System Template"
+    ],
+    "protocols": [],
+    "gateways": [],
+    "name": "Predictive-Maintenance-Template",
+    "private": false,
+    "image_url": "",
+    "dependencies": {
+        "some_clearblade_lib": "latest",
+        "http": "latest"
+    },
+    "scripts": {
+        "jsdoc": ""
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ClearBlade/predictive-maintenance-template"
+    },
+    "bugs": {
+        "url": "https://github.com/ClearBlade/predictive-maintenance-template/issues"
+    },
+    "homepage": "https://github.com/ClearBlade/predictive-maintenance-template#readme",
+    "devDependencies": {
+        "jsdoc-to-markdown": "^4.0.1"
+    }
+}
