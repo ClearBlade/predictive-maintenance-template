@@ -39,7 +39,7 @@
     "gateways": [],
     "name": "Predictive-Maintenance-Template",
     "private": false,
-    "image_url": "https://i.imgur.com/xzusl8P.png",
+    "image_url": "https://i.imgur.com/UzKLasF.png",
     "dependencies": {
         "some_clearblade_lib": "latest",
         "http": "latest"
