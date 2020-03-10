@@ -44,6 +44,8 @@ https://github.com/ClearBlade/predictive-maintenance-template
 
 ``` BrainJS ``` : A Library to Implement Neural Networks. Click [here](https://github.com/ClearBlade/brain-js) for more info.
 
+``` D3 ``` : A Library for Data Preprocessing. Click [here](https://github.com/d3/d3/blob/master/API.md) for more info.
+
 ### Code Services
 
 ``` TrainingService ``` : A code service to design and train a machine learning model using BrainJS.
