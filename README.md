@@ -33,7 +33,7 @@ https://github.com/ClearBlade/predictive-maintenance-template
 - Go to **Portal** and click on the **PredictiveMaintenance** Portal and login to the portal using the credentials for the newly created user.
 - Once logged in successfully, you can now access the portal. The portal is essentially divided into three sections:
   - **Device Sensor Readings:** This section displays the sensor readings of three different sensors viz. Accelerometer, pressure sensor and temperature sensor. The values for these sensors are randomly generated after every 5 seconds for a demonstrative purpose.
-  - **Communicate Sensor Data:** This section is further divided into two sub-sections. 
+  - **Sensor Data Communication:** This section is further divided into two sub-sections. 
     - **Subscribe and Publish:** The first sub-section, which is on the left hand side, allows you to subscribe to a topic and provide a publish interval (Default interval value is 5 seconds). The publish interval specifies the time interval after which you want to publish a message. For example, if you provide a publish time interval as 3, the system will publish a message after every 3 seconds on the subscribed topic unless you press the **Stop Publishing** button to stop publishing. 
     - **Live Device Data feed:** The second sub-section in the right side displays the live device data feed. It shows the messages published, their timestamp and the topic to which these messages were published.
   - **Latest Maintenance Alerts:** The third section displays latest alerts i.e if a maintenance is required or not.
