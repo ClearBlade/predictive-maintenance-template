@@ -5,7 +5,7 @@
 ### [Overview](#overview-1)
 ### [System Installation](#system-installation)
 ### [Usage](#usage-1)
-### [How to Train a model](how-to-train-a-model-1)
+### [Training of a model](training-of-a-model-1)
 ### [Assets](#assets-1)
 
 ## Overview
@@ -40,6 +40,16 @@ https://github.com/ClearBlade/predictive-maintenance-template
   - **Latest Maintenance Alerts:** The third section displays latest alerts i.e if a maintenance is required or not.
 - The messages published are sent to the PredictionService and the trained model designed using BrainJS predicts whether a maintenance is required for these messages and the corresponding results are sent in the form of alerts. 
 - The alerts in **Green** colour indicate that *Maintenance is not required*, whereas alerts in **Red** colour indicate that *Maintenance is required*.
+
+## Training of a model
+- Once the system is installed, go to **Services** and open the **TrainingService** code service.
+- In this service, two libraries are added [**BrainJS**](https://github.com/ClearBlade/brain-js) library and [**D3**](https://github.com/d3/d3/blob/master/API.md) library. The [**BrainJS**](https://github.com/ClearBlade/brain-js) library is responsible for providing the APIs for building a neural network model. The [**D3**](https://github.com/d3/d3/blob/master/API.md) library on the other hand is used for performing some of the data processing tasks. 
+- **STEP 1:** Import data from the collections using the [Standard ClearBlade JavaScript SDK](https://github.com/ClearBlade/native-libraries/blob/master/clearblade.md#query)
+- **STEP 2:** Perform data normalization as shown on [here](https://github.com/ClearBlade/predictive-maintenance-template/blob/master/code/services/TrainingService/TrainingService.js#L25). Here we have used Min-Max normalization. Click [here](https://towardsdatascience.com/why-data-should-be-normalized-before-training-a-neural-network-c626b7f66c7d) to know why normalization is important
+- **STEP 3:** Once the data is normalized, train the model using this data as shown on [here](https://github.com/ClearBlade/predictive-maintenance-template/blob/master/code/services/TrainingService/TrainingService.js#L58). Refer to the [BrainJS documentation](https://github.com/ClearBlade/brain-js) for more references on how to design and build a model.
+- **STEP 4:** Convert the model into JSON format as shown [here](https://github.com/ClearBlade/predictive-maintenance-template/blob/master/code/services/TrainingService/TrainingService.js#L63)
+- **STEP 5:** Store the JSON model into a collection with the required relevant information using the [Standard ClearBlade JavaScript SDK](https://github.com/ClearBlade/native-libraries/blob/master/clearblade.md#query)
+
 
 ## Assets
 
