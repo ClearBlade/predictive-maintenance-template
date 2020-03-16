@@ -5,7 +5,7 @@
 ### [Overview](#overview-1)
 ### [System Installation](#system-installation)
 ### [Usage](#usage-1)
-### [Training of a model](training-of-a-model-1)
+### [Training of a model](https://github.com/ClearBlade/predictive-maintenance-template/blob/master/training-of-a-model-1)
 ### [Assets](#assets-1)
 
 ## Overview
